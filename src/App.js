@@ -1,10 +1,13 @@
-import './App.css';
-import {Header} from './Components'
+import {Header,MovieList,MovieDetails} from './Components'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-column">
       <Header/>
+      <div className="d-flex border flex-row flex-fill">
+        <MovieList/>
+        <MovieDetails/>
+      </div>
     </div>
   );
 }
