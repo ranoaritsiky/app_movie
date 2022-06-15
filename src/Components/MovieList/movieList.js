@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 export default class MovieList extends Component {
     render(){
         return(
-            <div>
+            <div className="border w-75">
                 Movie List
             </div>
         )
