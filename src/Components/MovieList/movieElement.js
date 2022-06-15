@@ -3,7 +3,7 @@ export default class MovieElement extends Component {
     render(){
         return(
             <div>
-                Movie Element
+                test
             </div>
         )
     }
